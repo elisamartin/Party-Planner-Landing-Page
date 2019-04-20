@@ -202,3 +202,12 @@ a {
   background-color: white;
   border: 1px solid #990066;
 }
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0 20px 0;
+  color: #990066;
+  font-size: 1.6rem;
+}
