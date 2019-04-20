@@ -210,4 +210,98 @@ footer {
   padding: 40px 0 20px 0;
   color: #990066;
   font-size: 1.6rem;
+  border-top: 1px solid #54354a;
+}
+.header {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .txt-side {
+  width: 400px;
+  color: #54354a;
+}
+.header .txt-side h1 {
+  padding: 15px 0;
+}
+.header .txt-side h3 {
+  line-height: 1.2;
+  padding-bottom: 25px;
+}
+.header .txt-side button {
+  font-size: 1.6rem;
+  background-color: #990066;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 5%;
+  border: 1px solid #990066;
+}
+.header .txt-side button:hover {
+  text-decoration: none;
+  color: #990066;
+  background-color: white;
+  border: 1px solid #990066;
+}
+.header img {
+  height: 350px;
+  max-width: 500px;
+}
+.fts {
+  width: 100%;
+  text-align: center;
+  color: #54354a;
+}
+.fts h2 {
+  padding-bottom: 15px;
+}
+.fts .ft-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+.fts .ft-list .ft {
+  padding: 25px 10px;
+}
+.fts .ft-list .ft img {
+  height: 100px;
+}
+.fts .ft-list .ft p {
+  padding: 20px;
+  font-size: 1.4rem;
+}
+.fts .ft-long {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.fts .ft-long img {
+  height: 350px;
+  max-width: 500px;
+  padding: 0 20px;
+}
+.fts .ft-long .ft-long-txt h3 {
+  padding-bottom: 15px;
+}
+.ft-soon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 40px 0;
+}
+.ft-soon .ft-soon-txt {
+  text-align: start;
+  padding-right: 30px;
+}
+.ft-soon .ft-soon-txt h3 {
+  padding-bottom: 15px;
+}
+.ft-soon img {
+  height: 300px;
+  max-width: 500px;
 }
