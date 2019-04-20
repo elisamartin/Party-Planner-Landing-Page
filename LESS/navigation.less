@@ -1,0 +1,36 @@
+.nav-bar {
+	height: 50px;
+	padding: 10px;
+	.flex-align(row, center);
+	justify-content: space-between;
+	img {
+		height: 40px;
+	}
+	nav {
+		width: 35%;
+		display: flex;
+		justify-content: space-between;
+		a {
+			font-size: 1.6rem;
+			text-decoration: none;
+			color: @c-main;
+			padding: 5px;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+		.button {
+			background-color: @c-main;
+			padding: 5px 10px;
+			color: white;
+			border-radius: 5%;
+			border: 1px solid @c-main;
+			&:hover {
+				text-decoration: none;
+				color: @c-main;
+				background-color: white;
+				border: 1px solid @c-main;
+			}
+		}
+	}
+}
