@@ -1,0 +1,95 @@
+.header {
+	padding: 50px 0;
+	.flex-align(row, center);
+	justify-content: space-between;
+
+	.txt-side {
+		width: 400px;
+		color: @c-darkMain;
+		h1 {
+			padding: 15px 0;
+		}
+		h3 {
+			line-height: 1.2;
+			padding-bottom: 25px;
+		}
+		button {
+			font-size: 1.6rem;
+			background-color: @c-main;
+			padding: 5px 10px;
+			color: white;
+			border-radius: 5%;
+			border: 1px solid @c-main;
+			&:hover {
+				text-decoration: none;
+				color: @c-main;
+				background-color: white;
+				border: 1px solid @c-main;
+			}
+		}
+	}
+
+	img {
+		height: 350px;
+		max-width: 500px;
+	}
+}
+
+.fts {
+	width: 100%;
+	text-align: center;
+	color: @c-darkMain;
+	h2 {
+		padding-bottom: 15px;
+	}
+
+	.ft-list {
+		.flex-align(row, center);
+		justify-content: space-around;
+		margin: 20px 0;
+
+		.ft {
+			padding: 25px 10px;
+			img {
+				height: 100px;
+			}
+			p {
+				padding: 20px;
+				font-size: 1.4rem;
+			}
+		}
+	}
+	.ft-long {
+		.flex-align(row, center);
+		justify-content: space-between;
+		padding: 20px 0;
+		img {
+			height: 350px;
+			max-width: 500px;
+			padding: 0 20px;
+		}
+		.ft-long-txt {
+			h3 {
+				padding-bottom: 15px;
+			}
+		}
+	}
+}
+
+.ft-soon {
+	.flex-align(row, center);
+	padding: 40px 0;
+
+	.ft-soon-txt {
+		text-align: start;
+		padding-right: 30px;
+		h3 {
+			padding-bottom: 15px;
+		}
+	}
+
+	img {
+		height: 300px;
+		max-width: 500px;
+	}
+}

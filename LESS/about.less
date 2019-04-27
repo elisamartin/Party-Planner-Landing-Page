@@ -1,0 +1,33 @@
+.about-txt {
+	padding: 30px;
+	color: @c-darkMain;
+	h2 {
+		padding-bottom: 10px;
+	}
+}
+
+.the-team {
+	border: 1px solid lightgray;
+	.flex-align(row, center);
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 30px;
+	margin-bottom: 15px;
+	color: @c-darkMain;
+
+	.person {
+		.flex-align(row, center);
+		padding: 20px;
+		margin: 0 auto;
+		line-height: 1.3;
+
+		img {
+			height: 130px;
+		}
+
+		.links {
+			.flex-align(column, flex-start);
+			padding-top: 10px;
+		}
+	}
+}
